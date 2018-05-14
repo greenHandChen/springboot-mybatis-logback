@@ -1,0 +1,55 @@
+2017-12-25 18:07:28,372 INFO [main] com.example.demo.DemoApplication [StartupInfoLogger.java : 48] Starting DemoApplication on WIN-RGMAF56EC79 with PID 15764 (D:\workspace\springboot-mybatis\target\classes started by Administrator in D:\workspace\springboot-mybatis)
+2017-12-25 18:07:28,384 DEBUG [main] com.example.demo.DemoApplication [StartupInfoLogger.java : 51] Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2017-12-25 18:07:28,385 INFO [main] com.example.demo.DemoApplication [SpringApplication.java : 597] The following profiles are active: local
+2017-12-25 18:07:28,827 DEBUG [background-preinit] org.jboss.logging [LoggerProviders.java : 160] Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+2017-12-25 18:07:29,227 DEBUG [main] o.m.s.mapper.ClassPathMapperScanner [ClassPathScanningCandidateComponentProvider.java : 294] Identified candidate component class: file [D:\workspace\springboot-mybatis\target\classes\com\example\demo\mapper\MyBatisTestMapper.class]
+2017-12-25 18:07:29,229 DEBUG [main] o.m.s.mapper.ClassPathMapperScanner [ClassPathMapperScanner.java : 164] Creating MapperFactoryBean with name 'myBatisTestMapper' and 'com.example.demo.mapper.MyBatisTestMapper' mapperInterface
+2017-12-25 18:07:29,231 DEBUG [main] o.m.s.mapper.ClassPathMapperScanner [ClassPathMapperScanner.java : 200] Enabling autowire by type for MapperFactoryBean with name 'myBatisTestMapper'.
+2017-12-25 18:07:29,929 DEBUG [main] o.m.spring.SqlSessionFactoryBean [SqlSessionFactoryBean.java : 362] Property 'configLocation' not specified, using default MyBatis Configuration
+2017-12-25 18:07:30,102 DEBUG [main] o.m.spring.SqlSessionFactoryBean [SqlSessionFactoryBean.java : 472] Parsed mapper file: 'file [D:\workspace\springboot-mybatis\target\classes\mapper\MyBatisTestMapper.xml]'
+2017-12-25 18:07:31,997 INFO [main] com.example.demo.DemoApplication [StartupInfoLogger.java : 57] Started DemoApplication in 4.352 seconds (JVM running for 4.887)
+2017-12-25 18:14:40,308 DEBUG [http-nio-8084-exec-1] org.mybatis.spring.SqlSessionUtils [SqlSessionUtils.java : 104] Creating a new SqlSession
+2017-12-25 18:14:40,313 DEBUG [http-nio-8084-exec-1] org.mybatis.spring.SqlSessionUtils [SqlSessionUtils.java : 140] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7b24752a] was not registered for synchronization because synchronization is not active
+2017-12-25 18:14:40,657 DEBUG [http-nio-8084-exec-1] o.m.s.t.SpringManagedTransaction [SpringManagedTransaction.java : 86] JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@42a7ae99]]] will not be managed by Spring
+2017-12-25 18:14:40,663 DEBUG [http-nio-8084-exec-1] c.e.d.m.M.selectAllOauth2User [BaseJdbcLogger.java : 139] ==>  Preparing: select * from oauth2_user; 
+2017-12-25 18:14:40,684 DEBUG [http-nio-8084-exec-1] c.e.d.m.M.selectAllOauth2User [BaseJdbcLogger.java : 139] ==> Parameters: 
+2017-12-25 18:14:40,700 DEBUG [http-nio-8084-exec-1] c.e.d.m.M.selectAllOauth2User [BaseJdbcLogger.java : 139] <==      Total: 1
+2017-12-25 18:14:40,703 DEBUG [http-nio-8084-exec-1] org.mybatis.spring.SqlSessionUtils [SqlSessionUtils.java : 168] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7b24752a]
+2017-12-25 18:18:32,922 DEBUG [http-nio-8084-exec-3] org.mybatis.spring.SqlSessionUtils [SqlSessionUtils.java : 104] Creating a new SqlSession
+2017-12-25 18:18:32,923 DEBUG [http-nio-8084-exec-3] org.mybatis.spring.SqlSessionUtils [SqlSessionUtils.java : 140] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@65f286df] was not registered for synchronization because synchronization is not active
+2017-12-25 18:18:32,924 DEBUG [http-nio-8084-exec-3] o.m.s.t.SpringManagedTransaction [SpringManagedTransaction.java : 86] JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@42a7ae99]]] will not be managed by Spring
+2017-12-25 18:18:32,924 DEBUG [http-nio-8084-exec-3] c.e.d.m.M.selectAllOauth2User [BaseJdbcLogger.java : 139] ==>  Preparing: select * from oauth2_user; 
+2017-12-25 18:18:32,925 DEBUG [http-nio-8084-exec-3] c.e.d.m.M.selectAllOauth2User [BaseJdbcLogger.java : 139] ==> Parameters: 
+2017-12-25 18:18:32,927 DEBUG [http-nio-8084-exec-3] c.e.d.m.M.selectAllOauth2User [BaseJdbcLogger.java : 139] <==      Total: 1
+2017-12-25 18:18:32,928 DEBUG [http-nio-8084-exec-3] org.mybatis.spring.SqlSessionUtils [SqlSessionUtils.java : 168] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@65f286df]
+2017-12-25 18:21:05,357 DEBUG [http-nio-8084-exec-5] org.mybatis.spring.SqlSessionUtils [SqlSessionUtils.java : 104] Creating a new SqlSession
+2017-12-25 18:21:05,358 DEBUG [http-nio-8084-exec-5] org.mybatis.spring.SqlSessionUtils [SqlSessionUtils.java : 140] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@621e237c] was not registered for synchronization because synchronization is not active
+2017-12-25 18:21:05,359 DEBUG [http-nio-8084-exec-5] o.m.s.t.SpringManagedTransaction [SpringManagedTransaction.java : 86] JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@42a7ae99]]] will not be managed by Spring
+2017-12-25 18:21:05,360 DEBUG [http-nio-8084-exec-5] c.e.d.m.M.selectAllOauth2User [BaseJdbcLogger.java : 139] ==>  Preparing: select * from oauth2_user; 
+2017-12-25 18:21:05,361 DEBUG [http-nio-8084-exec-5] c.e.d.m.M.selectAllOauth2User [BaseJdbcLogger.java : 139] ==> Parameters: 
+2017-12-25 18:21:05,362 DEBUG [http-nio-8084-exec-5] c.e.d.m.M.selectAllOauth2User [BaseJdbcLogger.java : 139] <==      Total: 1
+2017-12-25 18:21:05,363 DEBUG [http-nio-8084-exec-5] org.mybatis.spring.SqlSessionUtils [SqlSessionUtils.java : 168] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@621e237c]
+2017-12-25 18:23:42,754 DEBUG [http-nio-8084-exec-7] org.mybatis.spring.SqlSessionUtils [SqlSessionUtils.java : 104] Creating a new SqlSession
+2017-12-25 18:23:42,755 DEBUG [http-nio-8084-exec-7] org.mybatis.spring.SqlSessionUtils [SqlSessionUtils.java : 140] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@26cd581d] was not registered for synchronization because synchronization is not active
+2017-12-25 18:23:42,756 DEBUG [http-nio-8084-exec-7] o.m.s.t.SpringManagedTransaction [SpringManagedTransaction.java : 86] JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@42a7ae99]]] will not be managed by Spring
+2017-12-25 18:23:42,756 DEBUG [http-nio-8084-exec-7] c.e.d.m.M.selectAllOauth2User [BaseJdbcLogger.java : 139] ==>  Preparing: select * from oauth2_user; 
+2017-12-25 18:23:42,757 DEBUG [http-nio-8084-exec-7] c.e.d.m.M.selectAllOauth2User [BaseJdbcLogger.java : 139] ==> Parameters: 
+2017-12-25 18:23:42,758 DEBUG [http-nio-8084-exec-7] c.e.d.m.M.selectAllOauth2User [BaseJdbcLogger.java : 139] <==      Total: 1
+2017-12-25 18:23:42,759 DEBUG [http-nio-8084-exec-7] org.mybatis.spring.SqlSessionUtils [SqlSessionUtils.java : 168] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@26cd581d]
+2017-12-25 18:56:14,235 INFO [main] com.example.demo.DemoApplication [StartupInfoLogger.java : 48] Starting DemoApplication on WIN-RGMAF56EC79 with PID 6304 (D:\workspace\springboot-mybatis\target\classes started by Administrator in D:\workspace\springboot-mybatis)
+2017-12-25 18:56:14,240 DEBUG [main] com.example.demo.DemoApplication [StartupInfoLogger.java : 51] Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2017-12-25 18:56:14,241 INFO [main] com.example.demo.DemoApplication [SpringApplication.java : 597] The following profiles are active: local
+2017-12-25 18:56:14,747 DEBUG [background-preinit] org.jboss.logging [LoggerProviders.java : 160] Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+2017-12-25 18:56:15,234 DEBUG [main] o.m.s.mapper.ClassPathMapperScanner [ClassPathScanningCandidateComponentProvider.java : 294] Identified candidate component class: file [D:\workspace\springboot-mybatis\target\classes\com\example\demo\mapper\MyBatisTestMapper.class]
+2017-12-25 18:56:15,236 DEBUG [main] o.m.s.mapper.ClassPathMapperScanner [ClassPathMapperScanner.java : 164] Creating MapperFactoryBean with name 'myBatisTestMapper' and 'com.example.demo.mapper.MyBatisTestMapper' mapperInterface
+2017-12-25 18:56:15,238 DEBUG [main] o.m.s.mapper.ClassPathMapperScanner [ClassPathMapperScanner.java : 200] Enabling autowire by type for MapperFactoryBean with name 'myBatisTestMapper'.
+2017-12-25 18:56:15,972 DEBUG [main] o.m.spring.SqlSessionFactoryBean [SqlSessionFactoryBean.java : 362] Property 'configLocation' not specified, using default MyBatis Configuration
+2017-12-25 18:56:16,112 DEBUG [main] o.m.spring.SqlSessionFactoryBean [SqlSessionFactoryBean.java : 472] Parsed mapper file: 'file [D:\workspace\springboot-mybatis\target\classes\mapper\MyBatisTestMapper.xml]'
+2017-12-25 18:56:17,926 INFO [main] com.example.demo.DemoApplication [StartupInfoLogger.java : 57] Started DemoApplication in 4.283 seconds (JVM running for 4.942)
+2017-12-25 18:56:53,923 DEBUG [http-nio-8084-exec-1] org.mybatis.spring.SqlSessionUtils [SqlSessionUtils.java : 104] Creating a new SqlSession
+2017-12-25 18:56:53,928 DEBUG [http-nio-8084-exec-1] org.mybatis.spring.SqlSessionUtils [SqlSessionUtils.java : 140] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1118818b] was not registered for synchronization because synchronization is not active
+2017-12-25 18:56:54,555 DEBUG [http-nio-8084-exec-1] o.m.s.t.SpringManagedTransaction [SpringManagedTransaction.java : 86] JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@594e1c9f]]] will not be managed by Spring
+2017-12-25 18:56:54,568 DEBUG [http-nio-8084-exec-1] c.e.d.m.M.selectAllOauth2User [BaseJdbcLogger.java : 139] ==>  Preparing: select * from oauth2_user; 
+2017-12-25 18:56:54,612 DEBUG [http-nio-8084-exec-1] c.e.d.m.M.selectAllOauth2User [BaseJdbcLogger.java : 139] ==> Parameters: 
+2017-12-25 18:56:54,638 DEBUG [http-nio-8084-exec-1] c.e.d.m.M.selectAllOauth2User [BaseJdbcLogger.java : 139] <==      Total: 1
+2017-12-25 18:56:54,643 DEBUG [http-nio-8084-exec-1] org.mybatis.spring.SqlSessionUtils [SqlSessionUtils.java : 168] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1118818b]

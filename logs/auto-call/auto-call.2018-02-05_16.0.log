@@ -1,0 +1,10 @@
+2018-02-05 16:46:06,003 INFO [main] com.example.demo.DemoApplication [StartupInfoLogger.java : 48] Starting DemoApplication on WIN-RGMAF56EC79 with PID 3496 (D:\workspace\springboot-mybatis\target\classes started by Administrator in D:\workspace\springboot-mybatis)
+2018-02-05 16:46:06,023 DEBUG [main] com.example.demo.DemoApplication [StartupInfoLogger.java : 51] Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2018-02-05 16:46:06,024 INFO [main] com.example.demo.DemoApplication [SpringApplication.java : 597] The following profiles are active: local
+2018-02-05 16:46:06,461 DEBUG [background-preinit] org.jboss.logging [LoggerProviders.java : 160] Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+2018-02-05 16:46:07,004 DEBUG [main] o.m.s.mapper.ClassPathMapperScanner [ClassPathScanningCandidateComponentProvider.java : 294] Identified candidate component class: file [D:\workspace\springboot-mybatis\target\classes\com\example\demo\yearBills\mapper\YearBillMapper.class]
+2018-02-05 16:46:07,007 DEBUG [main] o.m.s.mapper.ClassPathMapperScanner [ClassPathMapperScanner.java : 180] Creating MapperFactoryBean with name 'yearBillMapper' and 'com.example.demo.mapper.YearBillMapper' mapperInterface
+2018-02-05 16:46:07,008 DEBUG [main] o.m.s.mapper.ClassPathMapperScanner [ClassPathMapperScanner.java : 216] Enabling autowire by type for MapperFactoryBean with name 'yearBillMapper'.
+2018-02-05 16:46:09,536 DEBUG [main] o.m.spring.SqlSessionFactoryBean [SqlSessionFactoryBean.java : 437] Scanned package: 'com.example.demo.domain' for aliases
+2018-02-05 16:46:09,756 DEBUG [main] o.m.spring.SqlSessionFactoryBean [SqlSessionFactoryBean.java : 529] Parsed mapper file: 'file [D:\workspace\springboot-mybatis\target\classes\mapper\YearBillMapper.xml]'
+2018-02-05 16:46:10,956 INFO [main] com.example.demo.DemoApplication [StartupInfoLogger.java : 57] Started DemoApplication in 5.932 seconds (JVM running for 6.74)

@@ -1,0 +1,31 @@
+server:
+  port: 8084
+mybatis:
+  mapperLocations: classpath:mapper/*Mapper.xml # mapper接口和mapper文件的映射关系配置
+#  type-aliases-package: com.example.demo.domain # 表和实体类的映射
+  configuration:
+    mapUnderscoreToCamelCase: true
+spring:
+  application:
+    name: oauth2_demo
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/mybatis_test?useUnicode=true&characterEncoding=utf8&useSSL=true
+    name:
+    username: root
+    password: root
+    filters: stat
+    maxActive: 20
+    initialSize: 1
+    maxWait: 60000
+    minIdle: 1
+    timeBetweenEvictionRunsMillis: 60000
+    minEvictableIdleTimeMillis: 300000
+    validationQuery: select 'x'
+    poolPreparedStatements: true
+    maxOpenPreparedStatements: 20
+
+logging:
+  config: classpath:config/logback/logback-local.xml
+
