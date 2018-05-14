@@ -51,10 +51,12 @@
     <logger name="org.mongodb" level="ERROR"/>
     <logger name="liquibase" level="ERROR"/>
     <logger name="sun.rmi.transport" level="ERROR"/>
+    <logger name="org.jboss.logging" level="ERROR"/>
 
     <contextListener class="ch.qos.logback.classic.jul.LevelChangePropagator">
         <resetJUL>true</resetJUL>
     </contextListener>
+    <!-- 如果logger不设置级别，则默认为root设置的级别 -->
     <root level="DEBUG">
         <appender-ref ref="FILE"/>
     </root>
