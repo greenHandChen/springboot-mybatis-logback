@@ -38,8 +38,7 @@ public class LoggingAspect {
         stopWatch.start();
         Object object = joinPoint.proceed();
         stopWatch.stop();
-        System.out.println(stopWatch.currentTaskName());
-        log.info("[{}] took time: {}ms",joinPoint.getSignature().getDeclaringTypeName() + "." +joinPoint.getSignature().getName(),
+        log.debug("[{}] took time: {}ms",joinPoint.getSignature().getDeclaringTypeName() + "." +joinPoint.getSignature().getName(),
                 stopWatch.getTotalTimeMillis());
         return object;
     }

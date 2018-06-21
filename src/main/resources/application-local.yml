@@ -1,7 +1,7 @@
 server:
   port: 8084
 mybatis:
-  mapperLocations: classpath:mapper/*Mapper.xml # mapper接口和mapper文件的映射关系配置
+  mapperLocations: classpath:mapper/*Mapper.xml # 指定mapper映射文件
 #  type-aliases-package: com.example.demo.domain # 表和实体类的映射
   configuration:
     mapUnderscoreToCamelCase: true
